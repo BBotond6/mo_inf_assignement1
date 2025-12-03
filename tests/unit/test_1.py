@@ -11,3 +11,9 @@ def test_less_than_10():
 
     assert test_var.less_than_10(1)  == True
     assert test_var.less_than_10(10) == False
+
+def test_is_div_by_2():
+    test_var = test_class()
+
+    assert test_var.is_div_by_2(66) == True
+    assert test_var.is_div_by_2(67) == False

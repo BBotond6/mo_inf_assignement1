@@ -8,3 +8,8 @@ class test_class:
          else:
               return False
 
+    def is_div_by_2(self, arg1):
+         if int(arg1) % 2 == 0:
+              return True
+         else:
+              return False
